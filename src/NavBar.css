@@ -1,0 +1,19 @@
+.NavBar {
+    display: flex;
+    justify-content: space-around; /* or use space-between or space-evenly based on your preference */
+    background-color: #f8f9fa; /* Optional: Add a background color */
+    padding: 10px; /* Optional: Add some padding around the navbar */
+}
+
+.NavBar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Optional: Add a color to the links */
+    padding: 10px 20px; /* Add padding to space out the links */
+    margin: 0 10px; /* Add margin to space out the links */
+    border-radius: 5px; /* Optional: Add border radius */
+    transition: background-color 0.3s ease; /* Optional: Add a transition effect */
+}
+
+.NavBar a:hover {
+    background-color: #ddd;
+}
